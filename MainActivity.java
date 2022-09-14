@@ -1,6 +1,5 @@
 package com.example.calc;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.webkit.WebSettings;
