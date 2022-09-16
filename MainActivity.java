@@ -8,6 +8,7 @@ import android.webkit.WebViewClient;
 public class MainActivity extends AppCompatActivity {
     private WebView mywebView;
     @Override
+//     this is protected class
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
