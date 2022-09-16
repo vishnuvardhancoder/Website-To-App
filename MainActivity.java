@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         WebSettings webSettings=mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
+//     this is public class globally accessible 
     public class mywebClient extends WebViewClient{
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon){
