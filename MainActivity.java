@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     @Override
+//     this is public class - globally accessible
     public void onBackPressed(){
         if(mywebView.canGoBack()) {
             mywebView.goBack();
